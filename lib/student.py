@@ -10,5 +10,14 @@ class Student:
     
 
 class ChattyStudent(Student):
-    super(self,name).__init__()
+    def __init__(self,hello):
+        super().__init__(hello)
+        print("How are you doing today? I'm okay, but I'm kind of tired. Did you watch The Walking Dead last night? You didn't?! Oh man, it was so crazy! What, you don't want any spoilers? Okay well let me just tell you who died...")
+
+    def raise_hand(self,raise_hand):
+        super().__init__(raise_hand)
+        print(('pick me!')* 10)
+
+
+    
 
